@@ -1,16 +1,11 @@
-# clone and build repository
-mkdir -p /tmp/t4u
-cd /tmp/t4u
-wget https://github.com/abperiasamy/rtl8812AU_8821AU_linux/archive/master.zip
-unzip master.zip
-cd rtl8812AU_8821AU_linux-master
-make
+# build code once configuration is done
+cd /usr/src/rtl8812au
+sudo make clean
+sudo make
 sudo make install
-
-# load module
 sudo modprobe -a rtl8812au
 
-# setup dkms
+# setup DKMS
 sudo apt-get update
 sudo apt-get install dkms
 cd /tmp/t4u/rtl8812AU_8821AU_linux-master/
