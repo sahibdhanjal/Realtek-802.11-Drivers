@@ -8,7 +8,7 @@ This code is based on version 4.3.14 from https://github.com/diederikdehaas/rtl8
 ```
 * COMFAST 1200Mbps USB Wireless Adapter(Model: CF-912AC)
 * TP-LINK AC1200 Wireless Dual Band USB Adapter(Model: Archer-T4U)
-* [EDUP 600Mbps Wireless Dual Band Wifi Adapter (Model: EP-DB-1607)](https://www.amazon.com/EDUP-ac600Mbps-Wireless-External-10-6-10-13/dp/B01CCMUN8C)
+* EDUP 600Mbps Wireless Dual Band Wifi Adapter (Model: EP-DB-1607)
 ```
 
 ## Building Drivers
